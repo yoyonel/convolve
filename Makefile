@@ -79,3 +79,8 @@ dist: clean
 
 install: clean
 	python setup.py install
+
+
+convolve-lens:
+	python build/lib.linux-x86_64-3.5/convolve/run.lens.py --radius 50 --components 3 --exposure_gamma 3 datas/M35.jpg datas/M35.out.j
+pg
